@@ -39,6 +39,7 @@ body {
 #toggle-btn{
     cursor: pointer;
     color: blue;
+    margin-left: 85%;
 }
 .overlay-text {
     background-color: rgba(52, 152, 219, 0.7);
@@ -73,6 +74,12 @@ body {
     background-size: cover;
     border-radius:7px;
     text-shadow: 2px 2px 4px rgba(16, 16, 16, 0.7); 
+}
+#content{
+    margin-left: 30px;
+}
+h2{
+    margin-left:30px;
 }
 @media (max-width: 767px) {
     .navbar-nav {
